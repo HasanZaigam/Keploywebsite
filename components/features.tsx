@@ -63,10 +63,10 @@ const TextSection = ({
       <div className="flex items-center justify-center flex-shrink-0 w-12 h-12 mb-4 bg-white rounded-full ">
         {svg}
       </div>
-      <div className="mb-1 text-2xl font-bold leading-snug tracking-tight md:text-4xl text-secondary-300">
+      <div className="mb-1 text-2xl font-bold leading-snug tracking-tight md:text-4xl text-secondary-300 dark:text-blue-600">
         {heading}
       </div>
-      <div className="text-gray-600 md:text-lg">{description}</div>
+      <div className="text-gray-600 md:text-lg dark:text-gray-400">{description}</div>
       {btnDescription && (
         <div>
           <Link
